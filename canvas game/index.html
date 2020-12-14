@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>집 나간 앵무새 잡기</title>
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+        <style>
+            body { 
+                margin:4em;
+                margin-left: 30%;
+                background:rgb(249, 253, 255); 
+            }
+            #canvas { 
+                display: none;
+                background:rgb(249, 253, 255);
+            }
+            #startPage {
+                background: url('images/explain.png') no-repeat left top;
+            	width: 500px;
+                height: 400px;
+                border:gray 1px solid; 
+            }
+            #startimg {
+                position: absolute;
+            	top: 145px;
+                left: 250px;
+                width: 62px;
+                height: 61px;
+                background: url('images/parret.png') no-repeat left top;
+            }            
+            #startbtn {
+            	position: absolute;
+                margin-top: 8em;
+                margin-left: 40%;
+            	top: 200px;
+                left: 230px;
+                width: 100px;
+                height: 41px;
+                background-image: url("images/button.png");
+                background-repeat: none;
+            }
+            #startbtn:hover {
+            	cursor: pointer;
+            }
+            .myAudio {
+                display: none;
+            }
+            .sound {
+            	display: none;
+                position: absolute;
+                margin-left: 27%;
+                margin-top: 3em;
+                top: 2em;
+                left: 3em;
+                width: 3em;
+                height: 2.5em;
+                cursor: pointer;
+                z-index: 13;
+              }
+              .sound-on {
+                background: url('images/soundOn.png') no-repeat left top;
+              }
+              .sound-off {
+                margin-left: 27%;
+                margin-top: 3em;
+                background: url('images/soundOff.png') no-repeat left top;
+              }
+        </style>
+    </head>
+    <body>
+    	<div id="startPage">
+            <span id="startimg"> </span>
+            <span id="startbtn"> </span>
+        </div>        
+        <div class="sound sound-on"> </div>
+        <audio class="myAudio" loop>
+            <source src="audio/287. (신남브이로그) Saroche - KOKHT [무료 BGM 다운로드].mp3" type="audio/mpeg">
+        </audio>          
+        <canvas id="canvas" width="500" height="400"></canvas>
+        <script src="js/parrot.js"></script>
+    </body>
+</html>
