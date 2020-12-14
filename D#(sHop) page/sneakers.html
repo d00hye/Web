@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle.css"/>
+    <title>Web Shop Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo-block">
+                <img src="./images/logo.png"/>
+                <a href="./index.html" class="logo">DsHop</a>
+            </div>           
+        </div>
+    </header>  
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        home
+                    </a>
+                </li>
+                <li><a href="./about.html">about us</a></li>
+                <li><a href="./news.html">news</a></li>
+                <li><a href="./account.html">my account</a></li>
+                <li><a href="./contacts.html">contacts</a></li>
+            </ul>
+        </nav>
+     
+    <section>
+        <aside id="left">
+            <p class="category-title">Category</p>
+            <ul>
+                <li><a href="./index.html"><b>Top</b>상의</a></li>
+                <li><a href="./outer.html"><b>Outer</b>아우터</a></li>
+                <li><a href="./onepiece.html"><b>Onepiece</b>원피스</a></li>
+                <li><a href="./pants.html"><b>Pants</b>바지</a></li>
+                <li><a href="./sneakers.html"><b>Sneakers</b>스니커즈</a></li>
+            </ul>
+        </aside>
+        <article>
+            <div class="main-title">
+                Sneakers
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20150223/165996/165996_4_500.jpg" alt="top1"/>
+                    </br> 에라 - 트루 화이트 / VN000EWZW001
+                </br> </br> 스타일 95로 불리던 에라는 토니알바와 스테이시 페럴타가 디자이너로 참여한 오리지널 스케이트
+                 슈즈입니다. 발목 부분에 패드를 덧대고 구조적인 면은
+                  더욱 견고하게, 디자인은 더욱 멋스럽게 업그레이드되었습니다.
+            </br></br>판매가 :  39,900 원 </br>
+                </br><button onclick="sneakersFunc1()">장바구니 담기</button>
+                    </li>           
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20180703/810033/810033_2_500.jpg" alt="top1"/>
+                    </br>  Chuck 70 Classic Black 162050C
+                </br> </br> 컨버스 스테디셀러 척 70 빈티지 캔버스 제품은 아이코닉한 디자인과 빈티지한 매력을 선보입니다. 
+                디테일은 현대적으로 재해석하여 스니커즈의 미드솔은 더욱 두툼하고 견고해졌으며 
+                전체적인 실루엣은 세련된 곡선이 더해져 모던한 스트릿 무드를 선사합니다.
+            </br></br>판매가 : 93,420원 </br>
+                    </br><button onclick="sneakersFunc2()">장바구니 담기</button>
+                    </li>
+                    
+                </ul>
+        </article>
+    
+    <aside id="right">
+        <div class="shop-cart">
+            <h2>Shopping Cart<h2></h2>
+            <div class="cart">
+            </div>
+            <script src="./index.js"></script>
+                <div class="check-basket">
+                    <a href="./shopcart.html">쇼핑카트 보기</a>
+                </div>
+                
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <ul>
+             <li>아이디<input type="text" placeholder="아이디" title="아이디입력"></li>
+             <li>패스워드<input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
+             <li><input type="checkbox" id="chk_id"><label for="chk_id">아이디저장</label></li>
+             <li><button id="login">로그인</button> <button id="reset">초기화</button></li>
+              </ul>
+              <div class="sub-log">
+              <ul>
+                <li><a href="./register.html">회원가입</a>&nbsp;&nbsp;&nbsp; 
+                    <a href="./password.html">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+        </div>   
+    </aside>
+</section>
+    <footer>
+    </br>
+    </br>
+    <div class="footer">
+        <h4>COPYRIGHT (C) DsHop ALL RIGHTS RESERVED.</h4>
+    </div>
+    </br>    
+    </footer>
+    
+</body>
+</html>

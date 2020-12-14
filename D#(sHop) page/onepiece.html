@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle.css"/>
+    <title>Web Shop Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo-block">
+                <img src="./images/logo.png"/>
+                <a href="./index.html" class="logo">DsHop</a>
+            </div>           
+        </div>
+    </header>  
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        home
+                    </a>
+                </li>
+                <li><a href="./about.html">about us</a></li>
+                <li><a href="./news.html">news</a></li>
+                <li><a href="./account.html">my account</a></li>
+                <li><a href="./contacts.html">contacts</a></li>
+            </ul>
+        </nav>
+     
+    <section>
+        <aside id="left">
+            <p class="category-title">Category</p>
+            <ul>
+                <li><a href="./index.html"><b>Top</b>상의</a></li>
+                <li><a href="./outer.html"><b>Outer</b>아우터</a></li>
+                <li><a href="./onepiece.html"><b>Onepiece</b>원피스</a></li>
+                <li><a href="./pants.html"><b>Pants</b>바지</a></li>
+                <li><a href="./sneakers.html"><b>Sneakers</b>스니커즈</a></li>
+            </ul>
+        </aside>
+        <article>
+            <div class="main-title">
+                One piece
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200903/1581482/1581482_1_500.jpg" alt="top1"/>
+                    </br> 르메이 코트 원피스
+                </br> </br> 투웨이로 활용 가능한 원피스로 코튼 100 소재이고 텍스쳐와 어울리는 
+                미니멀한 디자인과 여성스러운 무드를 더해주는 래글런 소매가 특징입니다.
+            </br></br>판매가 : 126,630원 </br>
+                </br><button onclick="onepieceFunc1()">장바구니 담기</button>
+                    </li>           
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20190416/1015887/1015887_2_500.jpg" alt="top1"/>
+                    </br>  FRILL BUTTON RIBBON DRESS - SKYBLUE
+                </br> </br> 디테일이 돋보이는 여성스러운 제품으로 하늘하늘하게 떨어지는 스타일이 한층 더 무드를 더해줍니다.
+                코튼과 레이온 혼방 원단으로 부드럽고 주름이 덜 생깁니다.
+            </br></br>판매가 : 127,120원 </br>
+                    </br><button onclick="onepieceFunc2()">장바구니 담기</button>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200923/1620162/1620162_1_500.jpg" alt="top1"/>
+                    </br> flare stitch onepiece - ivory
+                </br> </br> 스티치가 포인트인 플레어 원피스로 자연스러운 A라인 실루엣이 특징입니다. 스퀘어 넥라인은 엔틱한 무드를 제공합니다.
+            </br></br>판매가 : 117,270원 </br>
+                </br><button onclick="onepieceFunc3()">장바구니 담기</button>
+                    </li>              
+                </ul>
+            </div>
+          
+           
+
+        </article>
+    
+    <aside id="right">
+        <div class="shop-cart">
+            <h2>Shopping Cart<h2></h2>
+            <div class="cart">
+            </div>
+            <script src="./index.js"></script>
+                <div class="check-basket">
+                    <a href="./shopcart.html">쇼핑카트 보기</a>
+                </div>
+                
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <ul>
+             <li>아이디<input type="text" placeholder="아이디" title="아이디입력"></li>
+             <li>패스워드<input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
+             <li><input type="checkbox" id="chk_id"><label for="chk_id">아이디저장</label></li>
+             <li><button id="login">로그인</button> <button id="reset">초기화</button></li>
+              </ul>
+              <div class="sub-log">
+              <ul>
+                <li><a href="./register.html">회원가입</a>&nbsp;&nbsp;&nbsp; 
+                    <a href="./password.html">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+        </div>   
+    </aside>
+</section>
+    <footer>
+    </br>
+    </br>
+    <div class="footer">
+        <h4>COPYRIGHT (C) DsHop ALL RIGHTS RESERVED.</h4>
+    </div>
+    </br>    
+    </footer>
+    
+</body>
+</html>

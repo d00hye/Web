@@ -1,0 +1,463 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a, a:visited{
+    text-decoration: none;
+}
+ul,p{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+.logo{
+    text-decoration: none; 
+    font-size: 2em;
+}
+.logo-wrapper {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+.logo-block{
+    display: flex;
+    width:5%;
+}
+.logo-block img {
+    width:128%;
+    height: 110%;
+    padding-right: 0.8em;
+}
+.logo-block a {
+    color:#000;
+    line-height: 74px;
+    letter-spacing: 2px;
+}
+.logo-block a:visited{
+    color:#000;
+}
+.login-wrapper a:visited {
+    color:#000
+}
+.login-wrapper a{
+    padding-right: 1em;
+    line-height: 74px;
+    color: #000;
+    letter-spacing: 1px;
+    /* display: flex; */
+}
+nav { 
+    padding:1em 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    text-transform: uppercase;
+    color:#000;
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+section #left{
+    margin-top: 1em;
+    width:15%;
+}
+section #left ul li {
+    padding:1.5em 0 ;
+    border-top:1px solid #ccc;
+}
+section #left ul li:hover{
+    background-color: #f3f3f3;
+}
+section #left ul li a{
+    display: flex;
+    color:#999;
+    padding:0 20px;
+}
+section #left ul li a b {
+    color:#000;
+    margin-right: 10px;
+}
+
+section #left .category-title {
+    font-size: 2em;
+    font-weight: bold;
+    padding:1em;
+}
+section #right{
+    margin-top: 1em;
+    width:15%;
+    margin-right: 4em;
+}
+
+section #right ul li a {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*장바구니*/
+
+.check-basket {
+    margin-bottom: 4em;
+}
+
+.check-basket a {
+    text-decoration: underline;
+    font-weight: bold;
+    color:blue;
+    font-size: 90%;
+}
+.check-basket a:visited {
+     color:blue;
+}
+
+.cart p {
+    margin-bottom: 1em;
+}
+
+/*로그인*/
+
+.login { 
+    margin-top: 2em;
+    margin-bottom: 3px;
+}
+h2 {
+     color: #CEBEE1;
+    }
+.login ul li{
+    margin-bottom: 8px;
+}
+.login button { 
+    background-color: white;
+    border: 1px solid #CEBEE1;
+    color: #CEBEE1;
+}
+.login button:hover{
+    background-color: #CEBEE1;
+    color: white;
+}
+
+
+/* basket */
+
+
+.basket ul li {
+    display: flex;
+    width:70%;
+    margin:0 auto;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    padding:0 3em;
+    height: 200px;
+    align-items: center;
+}
+.basket ul li img {
+    height: 100%;
+}
+
+.basket ul li button {
+    border:0 ;
+    padding:1em 2em;
+}
+
+
+/*footer*/
+
+footer .footer{
+    margin-left: 2em;
+}
+
+/* account page */
+
+section .main .account-menu li{
+    color:#000;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+section article{
+    width:70%;
+}
+
+.focus-page{
+    background-color: #f3f3f3;
+}
+
+
+.main-title{
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding: 1em 0;
+}
+
+/* 기본 화면 */
+
+.main-contents{
+    width:100%;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
+.main-contents ul {
+    display:flex;
+    margin-left: 4.5em;
+    
+}
+
+.main-contents ul li {
+    border:1px dotted #ff3b3bd7;
+    border-bottom: 2px dotted #ff3b3bd7;
+    border-left: 2px dotted #ff3b3bd7;
+    width:40%;
+    /* border:1px solid #bbb; */
+    padding: 1.3em;
+    
+}
+.main-contents ul li img {
+    width:70%;
+}
+
+/* About */
+
+.about{
+    width:80%;
+    margin-top: 2em;
+}
+.about .about-image{
+    width: 100%;
+}
+
+.about .about-explanation {
+    display: flex;
+    flex-direction: column;
+}
+.about .about-explanation div {
+    margin-top: 1.3em;
+    line-height: 30px;
+}
+
+.news-title{
+    border-bottom: 1px solid #000;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding: 1em 0;
+}
+.news-items ul{
+    width:90%;
+    margin: 0 auto;
+
+}
+.news-items ul li{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.news-items ul li .news-item-image{
+    width: 25%;
+
+}
+.news-items ul li .news-item-image img {
+    width:100%;
+    height: 100%;
+}
+.news-items ul li .news-item-explanation {
+    width: 70%;
+    font-family: sans-serif;
+}
+.news-items ul li .news-item-explanation p {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+
+/*  account page - item */
+
+.account-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 1em;
+}
+.account-item-title h2{
+    border-bottom: 1px solid #000;
+    padding-bottom: 1em;
+    color: #000;
+}
+.account-item-img{
+    width:20%;
+    
+}
+.account-item-img img{
+    width: 100%;
+}
+.account-item-body{
+    margin-top: 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+.account-item-value {
+    width: 50%;
+    font-size: 1.6em;
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.account-item-button {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+    }
+    .account-item-button .write{
+        font-size: 1em;
+        padding:0.6em 1.3em;
+        margin-right: 4em;
+        border: 0;
+        background-color: #000;
+        color:white
+        
+    }
+.account-item-button .call{
+    font-size: 1em;
+    padding:0.6em 1.3em;
+    margin-right: 4em;
+    border: 1px solid #777;
+    background-color: #fff;
+    color:black
+    
+}
+
+
+/*  contacts  */
+
+.contacts-wrapper {
+    width:90%;
+    margin: 0 auto 4em;
+}
+
+/* join */
+
+.join-title{
+    
+    justify-content: space-around;
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+
+table{
+    border:1px solid rgb(71, 71, 71,0.3);
+    margin-top: 3em;
+    width: 100%;
+   
+}
+td{
+    height: 40px;
+}
+.row{
+    color :white;
+    background-color: #CEBEE1;
+    font-weight: bold;
+}
+
+
+table button {
+    border:0;
+    padding:0.3em 2em;
+    background-color: #CEBEE1;
+    color:white;
+    border-radius: 20px;
+}
+
+/* password 찾기 */
+
+.passfind {
+    margin-top: 2em;
+    margin-left: 3em;
+    
+}
+
+.passfind h3 {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+.passbox{
+    padding: 2em;
+    margin-right: 6em;
+    background-color: gainsboro;
+}
+.passfind label{
+    margin-right: 1em;
+}
+.passfind input[type="text"]{
+    padding: 1em;
+    color: #999;
+    border: 1px solid #999;
+    background-color: aliceblue;
+    width: 80%;
+}
+.passfind .next button{
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 3em;
+    margin-right: 5em;
+    text-align: center;
+    border-radius: 0;
+    background-color:rgba(140, 128, 243, 0.849);
+    color: white; 
+    border: 1px solid rgba(120, 106, 248, 0.849);
+}
+.findbutton{
+    border-bottom: 1px solid rgba(140, 128, 243, 0.849);
+    margin-right: 6em;
+}
+.findbutton button{
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 3em;
+    background-color: rgba(180, 172, 255, 0.664);
+    border: 1px solid rgba(140, 128, 243, 0.849);
+    border-bottom: none;
+    color: white;
+    position: relative;
+}
+.findbutton #id{
+    margin-left: -0.5em;
+}
+
+
+
+

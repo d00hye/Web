@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle.css"/>
+    <title>Web Shop Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo-block">
+                <img src="./images/logo.png"/>
+                <a href="./index.html" class="logo">DsHop</a>
+            </div>           
+        </div>
+    </header>  
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        home
+                    </a>
+                </li>
+                <li><a href="./about.html">about us</a></li>
+                <li><a href="./news.html">news</a></li>
+                <li><a href="./account.html">my account</a></li>
+                <li><a href="./contacts.html">contacts</a></li>
+            </ul>
+        </nav>
+     
+    <section>
+        <aside id="left">
+            <p class="category-title">Category</p>
+            <ul>
+                <li><a href="./index.html"><b>Top</b>상의</a></li>
+                <li><a href="./outer.html"><b>Outer</b>아우터</a></li>
+                <li><a href="./onepiece.html"><b>Onepiece</b>원피스</a></li>
+                <li><a href="./pants.html"><b>Pants</b>바지</a></li>
+                <li><a href="./sneakers.html"><b>Sneakers</b>스니커즈</a></li>
+            </ul>
+        </aside>
+        <article>
+            <div class="main-title">
+                Pants
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200227/1326769/1326769_1_500.jpg" alt="top1"/>
+                    </br> P[1005]롱 와이드 데님팬츠 (라이트블루)
+                </br> </br> 넉넉한 와이드핏의 제품으로 트렌드에 맞게 오버사이즈 상의에 매칭하기 좋으며 
+                7수 100% 코트 원단을 사용하여 밀도감이 높아 착용감이 뛰어납니다.
+            </br></br>판매가 :  29,800 원 </br>
+                </br><button onclick="pantsFunc1()">장바구니 담기</button>
+                    </li>           
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20181025/890338/890338_8_500.jpg" alt="top1"/>
+                    </br>  WIDE DENIM PANTS (DEEP GREY)
+                </br> </br> 와이드한 핏감과 탄탄한 데님 소재의 적당한 두께감으로 사계절 내내 착용할 수 있으며, 
+                총장이 넉넉하여 발등을 살짝 덮는 기장감과 툭 떨어지는 핏이 매력적인 팬츠입니다.
+            </br></br>판매가 : 46,480원 </br>
+                    </br><button onclick="pantsFunc2()">장바구니 담기</button>
+                    </li>
+                    
+                </ul>
+        </article>
+    
+    <aside id="right">
+        <div class="shop-cart">
+            <h2>Shopping Cart<h2></h2>
+            <div class="cart">
+            </div>
+            <script src="./index.js"></script>
+                <div class="check-basket">
+                    <a href="./shopcart.html">쇼핑카트 보기</a>
+                </div>
+                
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <ul>
+             <li>아이디<input type="text" placeholder="아이디" title="아이디입력"></li>
+             <li>패스워드<input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
+             <li><input type="checkbox" id="chk_id"><label for="chk_id">아이디저장</label></li>
+             <li><button id="login">로그인</button> <button id="reset">초기화</button></li>
+              </ul>
+              <div class="sub-log">
+              <ul>
+                <li><a href="./register.html">회원가입</a>&nbsp;&nbsp;&nbsp; 
+                    <a href="./password.html">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+        </div>   
+    </aside>
+</section>
+    <footer>
+    </br>
+    </br>
+    <div class="footer">
+        <h4>COPYRIGHT (C) DsHop ALL RIGHTS RESERVED.</h4>
+    </div>
+    </br>    
+    </footer>
+    
+</body>
+</html>

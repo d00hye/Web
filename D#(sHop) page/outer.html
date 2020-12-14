@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle.css"/>
+    <title>Web Shop Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo-block">
+                <img src="./images/logo.png"/>
+                <a href="./index.html" class="logo">DsHop</a>
+            </div>           
+        </div>
+    </header>  
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        home
+                    </a>
+                </li>
+                <li><a href="./about.html">about us</a></li>
+                <li><a href="./news.html">news</a></li>
+                <li><a href="./account.html">my account</a></li>
+                <li><a href="./contacts.html">contacts</a></li>
+            </ul>
+        </nav>
+     
+    <section>
+        <aside id="left">
+            <p class="category-title">Category</p>
+            <ul>
+                <li><a href="./index.html"><b>Top</b>상의</a></li>
+                <li><a href="./outer.html"><b>Outer</b>아우터</a></li>
+                <li><a href="./onepiece.html"><b>Onepiece</b>원피스</a></li>
+                <li><a href="./pants.html"><b>Pants</b>바지</a></li>
+                <li><a href="./sneakers.html"><b>Sneakers</b>스니커즈</a></li>
+            </ul>
+        </aside>
+        <article>
+            <div class="main-title">
+                Outer
+                        </div>
+            <div class="main-contents">
+                <ul>
+                    <li>                        
+                        <img src="https://image.msscdn.net/images/goods_img/20200928/1629488/1629488_1_500.jpg" alt="top1"/>
+                    </br> LUSH TRENCH COAT DRESS_BROWN
+                </br> </br> 가볍지만 고급스러운 원단감으로 타 상품과 비교 시 세밀한 밀도 차이를 느끼실 수 있는 하이 퀄리티의 제품입니다.
+                탈부착 가능한 스트랩과 함께 원피스로 연출 시에도 밋밋하지 않아
+                이 아이템 하나만으로도 여러가지 스타일링이 가능해 추천드립니다.
+            </br></br>판매가 : 106,970원 </br>
+                </br><button onclick="outerFunc1()">장바구니 담기</button>
+                    </li>           
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200928/1628344/1628344_1_500.jpg" alt="top1"/>
+                    </br> IVORY MILLY TRENCH HANDMADE COAT
+                </br> </br> 호주의 메리노 울 이중직 소재를 사용한 핸드메이드 코트로 최상의 퀄리티를 제공합니다. 롱한 기장감으로 스타일리쉬하게
+                연출할 수 있으며 모던한 무드를 제공합니다.
+            </br></br>판매가 : 356,630원 </br>
+                    </br><button onclick="outerFunc2()">장바구니 담기</button>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20191021/1195240/1195240_13_500.jpg" alt="top1"/>
+                    </br> M/G ANGEL FLEECE ZIP UP IVORY
+                </br> </br> 귀여운 마크곤잘레스의 로고가 포인트인
+                러블리한 플리스 집업, 오버핏으로 출시됐습니다.
+            </br></br>판매가 : 66,470원 </br>
+                </br><button onclick="outerFunc3()">장바구니 담기</button>
+                    </li>              
+                </ul>
+            </div>
+          
+           
+
+        </article>
+    
+    <aside id="right">
+        <div class="shop-cart">
+            <h2>Shopping Cart<h2></h2>
+            <div class="cart">
+            </div>
+            <script src="./index.js"></script>
+                <div class="check-basket">
+                    <a href="./shopcart.html">쇼핑카트 보기</a>
+                </div>
+                
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <ul>
+             <li>아이디<input type="text" placeholder="아이디" title="아이디입력"></li>
+             <li>패스워드<input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
+             <li><input type="checkbox" id="chk_id"><label for="chk_id">아이디저장</label></li>
+             <li><button id="login">로그인</button> <button id="reset">초기화</button></li>
+              </ul>
+              <div class="sub-log">
+              <ul>
+                <li><a href="./register.html">회원가입</a>&nbsp;&nbsp;&nbsp; 
+                    <a href="./password.html">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+        </div>   
+    </aside>
+</section>
+    <footer>
+    </br>
+    </br>
+    <div class="footer">
+        <h4>COPYRIGHT (C) DsHop ALL RIGHTS RESERVED.</h4>
+    </div>
+    </br>    
+    </footer>
+    
+</body>
+</html>

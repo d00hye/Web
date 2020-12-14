@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mystyle.css"/>
+    <title>Web Shop Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo-block">
+                <img src="./images/logo.png"/>
+                <a href="./index.html" class="logo">DsHop</a>
+            </div>           
+        </div>
+    </header>  
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        home
+                    </a>
+                </li>
+                <li><a href="./about.html">about us</a></li>
+                <li><a href="./news.html">news</a></li>
+                <li><a href="./account.html">my account</a></li>
+                <li><a href="./contacts.html">contacts</a></li>
+            </ul>
+        </nav>
+     
+    <section>
+        <aside id="left">
+            <p class="category-title">Category</p>
+            <ul>
+                <li><a href="./index.html"><b>Top</b>상의</a></li>
+                <li><a href="./outer.html"><b>Outer</b>아우터</a></li>
+                <li><a href="./onepiece.html"><b>Onepiece</b>원피스</a></li>
+                <li><a href="./pants.html"><b>Pants</b>바지</a></li>
+                <li><a href="./sneakers.html"><b>Sneakers</b>스니커즈</a></li>
+            </ul>
+        </aside>
+        <article>
+            <div class="main-title">
+                Top
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200820/1557508/1557508_1_500.jpg" alt="top1"/>
+                    </br> EFF 베츠 맨투맨 그레이
+                    </br> </br> EFF의 베스트 제품입니다. 귀엽고 사랑스러운 그래픽이 특징이며 코튼 100%의 원단을 사용했고 
+                    가을에 입기 좋은 안감으로 가볍습니다.
+                    </br></br>판매가 :  48,586원 </br>
+                </br><button onclick="topFunc1()">장바구니 담기</button>
+                    </li>           
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200225/1322019/1322019_5_500.jpg" alt="top2"/>
+                    </br>  M/G STRIPE LONG SLEEVE BLACK
+                    </br> </br> 귀여운 마크곤잘레스의 로고가 포인트인
+                    러블리한 롱슬리브입니다. 긴 소매 기장으로 다양한 스타일을 시도해보세요!
+                    </br></br>판매가 : 45,000원 </br>
+                    </br><button onclick="topFunc2()">장바구니 담기</button>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="main-contents">
+                <ul>
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20200819/1555103/1555103_1_500.jpg" alt="top3"/>
+                    </br>  레이어드 어센틱 롱슬리브 블랙
+                    </br> </br> 이중넥 리브와 이중소매가 디자인 포인트입니다. 
+                    리브 한겹과 롱슬리브를 피그먼트된 원단을 사용하여 포인트를 주었습니다.
+                    </br></br>판매가 : 39,840원 </br>
+                </br><button onclick="topFunc3()">장바구니 담기</button>
+                    </li>           
+                    <li>
+                        <img src="https://image.msscdn.net/images/goods_img/20170905/624899/624899_1_500.jpg" alt="top4"/>
+                    </br>  [Mmlg] MMLG SWEAT (MELANGE BLUE)
+                    </br> </br> 기모원단이 들어간 옷으로 전체 이중 봉제 처리를 하였습니다. 
+                    수축률을 최소화하고자 덤블 워싱가공처리를 통하여 제작하였습니다.
+                    </br></br>판매가 : 69,0000원 </br>
+                    </br><button onclick="topFunc4()">장바구니 담기</button>
+                    </li>
+                    
+                </ul>
+            </div>
+          
+           
+
+        </article>
+    
+    <aside id="right">
+        <div class="shop-cart">
+            <h2>Shopping Cart<h2></h2>
+            <div class="cart">
+            </div>
+            <script src="./index.js"></script>
+                <div class="check-basket">
+                    <a href="./shopcart.html">쇼핑카트 보기</a>
+                </div>
+                
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <ul>
+             <li>아이디<input type="text" placeholder="아이디" title="아이디입력"></li>
+             <li>패스워드<input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
+             <li><input type="checkbox" id="chk_id"><label for="chk_id">아이디저장</label></li>
+             <li><button id="login">로그인</button> <button id="reset">초기화</button></li>
+              </ul>
+              <div class="sub-log">
+              <ul>
+                <li><a href="./register.html">회원가입</a>&nbsp;&nbsp;&nbsp; 
+                    <a href="./password.html">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+        </div>   
+    </aside>
+</section>
+    <footer>
+    </br>
+    </br>
+    <div class="footer">
+        <h4>COPYRIGHT (C) DsHop ALL RIGHTS RESERVED.</h4>
+    </div>
+    </br>    
+    </footer>
+    
+</body>
+</html>
